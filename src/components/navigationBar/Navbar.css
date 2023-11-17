@@ -1,0 +1,79 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  font-family: "Poppins", sans-serif;
+  background-color: cadetblue;
+  color: #f0f0f0;
+}
+
+.nav-link ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link ul li {
+  list-style: none;
+  font-size: large;
+  font-weight: 400;
+  color: #f0f0f0;
+}
+
+.nav-link ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.nav-logo {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+/* Slider Styles  */
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Theme Slider Styles  */
+
+.slider-container {
+  width: 50px;
+  height: 25px;
+  background-color: lightgray;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slider-button {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  transition: left 0.3s ease; /* left horizontal hareketi temsil eder*/
+}
+
+.slider-container.dark {
+  background-color: darkgray;
+}
+
+.slider-container.dark .slider-button {
+  left: calc(100% - 22.5px);
+}

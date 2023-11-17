@@ -1,0 +1,44 @@
+.form-recipe {
+  text-align: center;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.form-title {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: larger;
+}
+
+.form-button button {
+  color: white;
+  background-color: cadetblue;
+  margin-top: 1rem;
+  padding: 1rem 16rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.form-button button:hover {
+  transform: scale(1.1);
+}
+
+.recipe-desc textarea,
+.recipe-title input,
+.form-label label,
+.recipe-image input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 0.5rem 0.5rem lightgray;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0.1rem gray;
+  width: 20rem;
+  transition: 0.3s;
+  gap: 0.5rem;
+}
+
+.recipe-card:hover {
+  transform: scale(1.1);
+}
+
+.recipe-card img {
+  width: 15rem;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.btn-delete button {
+    background-color: #fff;
+    color: red;
+    font-size: large;
+    border: 0px solid;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.btn-delete button:hover {
+  border-radius: 1rem;
+  padding: .5rem;
+  background-color: red;
+  color: #fff;
+}

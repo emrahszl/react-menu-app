@@ -1,0 +1,24 @@
+.all-recipe {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 0 10rem 0 10rem;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 12rem;
+}
+
+.btn-delete button {
+  background-color: #fff;
+  color: red;
+  font-size: large;
+  border: 0px solid;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn-delete button:hover {
+  transform: scale(1.1);
+}
